@@ -1,0 +1,8 @@
+﻿Método;Endpoint;Proposito en la Interfaz (Frontend)
+POST;lapi/asistencias/entrada/{idAlumno};Registro de inicio de jornada (Fichaje de entrada).
+PATCH;/api/asistencias/salida/{idAlumno};Cierre de jornada con registro de horas y observaciones.
+GET;/api/tareas/alumno/{id};Carga del plan de trabajo y estado de tareas.
+PATCH;/api/tareas/{id}/estado;"Actualizacion de la tarea a ""COMPLE TADA"""
+PATCH;/api/tareas/{id}/revisar;Validacion final de la tarea por parte del Profesor Tutor.
+GET;/api/centros/principal;Obtencion de datos del centro.
+POST;/api/alumnos;Alta de nuevos alumnos y matriculacion (Perfil Gestor:

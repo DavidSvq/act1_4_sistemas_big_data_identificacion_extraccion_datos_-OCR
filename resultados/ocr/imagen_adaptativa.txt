@@ -1,0 +1,32 @@
+Método
+	Endpoint
+	Proposito en fa Interfaz (Frontend)
+
+POST
+	lapilasistencias/entrada/{idAlumno}
+	Registro de inicio de jornada (Fichaje de entrada).
+
+PATCH
+	lapilasistencias/salida/{idAlumno}
+	Cierre de jornada con registro de horas y observaciones.
+
+GET
+	fapiltareas/alumno/{id}
+	Carga del plan de trabajo y estado de tareas.
+
+PATCH
+	fapiltareas/{id}iestado
+	Actualizacion de la tarea a "COMPLETADA”
+
+PATCH
+	fapiltareas/{id}/revisar
+	Validacion final de la tarea por parte del Profesor Tutor.
+
+GET
+	fapilcentros/principal
+	Obtencién de datos del centro.
+
+POST
+	fapifalumnos
+	Alta de nuevos alumnos y matriculaci6n (Perfil Gestor:
+
